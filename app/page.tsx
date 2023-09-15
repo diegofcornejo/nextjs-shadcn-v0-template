@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { ModeToggle } from '@/components/theme-selector';
 import { UserAuthForm } from '@/components/login-form';
 import { Icons } from '@/components/icons';
+import { Button } from '@/components/ui/button';
 
 export const metadata: Metadata = {
 	title: 'Login',
@@ -34,6 +35,12 @@ export default function LoginPage() {
 										<li><Link href="https://bun.sh/" target="_blank" rel="noopener noreferrer"><button className="hover:underline">Bun as npm installer and builder</button></Link></li>
 										<li><Link href="https://vercel.com/" target="_blank" rel="noopener noreferrer"><button className="hover:underline">Vercel as deployer</button></Link></li>
 								</ul>
+								<Button className='mt-4'>
+									<Link href="https://nextjs-shadcn-v0ai.vercel.app/" target="_blank" rel="noopener noreferrer">
+										Visit Demo
+									</Link>
+								</Button>
+								
 						</footer>
 					</blockquote>
 					</div>

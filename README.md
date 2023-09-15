@@ -35,3 +35,12 @@ bun run dev
 bunx shadcn-ui@latest add table
 bunx v0 add GkNjwEC
 ```
+
+## Authentication
+
+Actually this project has a mock authentication system. You can login with any username and password in `app/api/data/users.json` file.
+
+## TODO
+- [ ] Add a real authentication system with a database or a third-party service
+- [ ] Manage sessions with cookies
+- [ ] Add a full example of a CRUD app
