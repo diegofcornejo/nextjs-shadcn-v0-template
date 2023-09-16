@@ -98,7 +98,7 @@ export default function LoginPage() {
 						<UserAuthForm />
 						<div className='flex flex-col space-y-2 text-center'>
 							<p className='text-sm text-muted-foreground'>
-								Don&apost have an account?{' '}
+							Don&apos;t have an account?{' '}
 								<Link href='/register'>
 									Register
 								</Link>
